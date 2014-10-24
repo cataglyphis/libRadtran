@@ -1,0 +1,18 @@
+# for test
+atmosphere_file ../data/atmmod/afglus.dat
+solar_file ../data/solar_flux/atlas_plus_modtran
+
+rte_solver mystic  # use MYSTIC solver
+mc_polarisation    # switch on polarization
+
+quiet
+
+mc_photons 100000
+
+sza 55.0
+phi0 264.0
+
+
+umu -6.12323e-17 
+phi 360 
+wavelength 500 
