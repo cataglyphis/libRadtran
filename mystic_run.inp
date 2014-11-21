@@ -9,10 +9,14 @@ quiet
 
 mc_photons 100000
 
-sza 55.0
-phi0 264.0
+wavelength 400.0
+sza 30.0
+phi0 270.0
 
-
-umu -6.12323e-17 
-phi 360 
-wavelength 500 
+umu -0.999486 
+phi 0 
+wc_file ../examples/WC.DAT 
+wc_properties mie 
+wc_properties_interpolate 
+wc_set_tau 2 
+mc_vroom on 

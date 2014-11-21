@@ -9,6 +9,7 @@ quiet
 
 mc_photons 100000
 
-sza 55.0
-phi0 264.0
+wavelength 400.0
+sza 30.0
+phi0 270.0
 
