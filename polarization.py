@@ -213,7 +213,7 @@ else:
     plt.plot(meridian_x,meridian_y,'w-',xs,ys,'wo',linewidth=2,markersize=8)
     plt.axis('equal')
     plt.axis('off')
-    plt.savefig(aop.png)
+    plt.savefig('aop.png')
 
     plt.show()
 
