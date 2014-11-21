@@ -49,7 +49,8 @@ libRadtran
     ./configure (看能否找到上述包的安装目录, 如无误, 则继续)
     make
     make check
-###Python package (推荐使用Anaconda，可以简化不同包之间的依赖关系)
+###Python package
+(推荐使用Anaconda，可以简化不同包之间的依赖关系)
 
     sudo apt-get install python-scipy
     sudo apt-get install python-numpy
