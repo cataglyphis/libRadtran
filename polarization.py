@@ -78,7 +78,7 @@ if(run_rt):
                 inp.close()
 
                 # can also use module subprocess.Popen() instead
-                # child = subprocess.Popen('./uvspec < mystic_run.inp > test.out')
+                # child = subprocess.Popen('./uvspec < mystic_run.inp > test.out', shell=True)
                 # child.wait()
                 fin,fout = os.popen2('./uvspec < mystic_run.inp > test.out')
                 os.wait()
