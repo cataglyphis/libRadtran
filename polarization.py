@@ -77,6 +77,7 @@ if(run_rt):
 
                 inp.close()
 
+                # can also use module subprocess.Popen() instead
                 fin,fout = os.popen2('./uvspec < mystic_run.inp > test.out')
                 os.wait()
 
