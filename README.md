@@ -43,6 +43,7 @@ libRadtran
 >>>     export DYLD_LIBRARY_PATH=/usr/local/netcdf/lib:$DYLD_LIBRARY_PATH
 
 >>>     source ~/.bashrc 使上述设置生效, 终端执行 nc-config 按照提示操作
+
 ###Compile the distribution
 
     cd libRadtran-1.7
